@@ -1,4 +1,4 @@
-Laravel Blog
+# Laravel Blog
 ### Main page
 ![Main page](https://github.com/neiskip/larablog/blob/main/preview/1.jpg?raw=true)
 ### Admin panel
