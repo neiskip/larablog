@@ -12,7 +12,7 @@ Simple blog written in Larave. There are authorization, registration, post creat
 #### If you are going to export SQL file to your schema instead of migrations:
 ##### Admin user: admin@admin.su
 ##### Admin password: admin
-
+## 
 ##### User: skip@ma.su
 ##### Password: 123
 
