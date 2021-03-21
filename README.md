@@ -8,9 +8,25 @@
 
 Simple blog written in Larave. There are authorization, registration, post create page, post view pages, search through posts and very simple admin panel, which will be improved in future.
 
-## Instalation
+## Usage
+#### If you are going to export SQL file to your schema instead of migrations:
+##### Admin user: admin@admin.su
+##### Admin password: admin
 
+##### User: skip@ma.su
+##### Password: 123
 
+#### If you use migration I recommend to add user_role column to not look around user ID's:
+
+```
+            $table->id();
+            $table->string('name');
+            $table->string('email')->unique();
+            .
+            .
+            .
+            $table->unsignedTinyInteger('user_role')->default(0);
+```
 
 ## License
 
