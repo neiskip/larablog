@@ -17,11 +17,11 @@ or
 ```bash
 psql -h [hostname] -d [database_name] -U [username] -f larablog.sql
 ```
-##### Admin user: admin@admin.su
-##### Admin password: admin
-## 
-##### User: skip@ma.su
-##### Password: 123
+**Admin user: admin@admin.su**\
+**Admin password: admin**\
+
+**User: skip@ma.su**\
+**Password: 123**
 
 #### If you use migration I recommend to add user_role column to not look around user ID's:
 
