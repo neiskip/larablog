@@ -10,6 +10,13 @@ Simple blog written in Larave. There are authorization, registration, post creat
 
 ## Usage
 #### If you are going to export SQL file to your schema instead of migrations:
+```bash
+mysql -u [username] -p [database_name] < larablog.sql
+```
+or
+```bash
+psql -h [hostname] -d [database_name] -U [username] -f larablog.sql
+```
 ##### Admin user: admin@admin.su
 ##### Admin password: admin
 ## 
