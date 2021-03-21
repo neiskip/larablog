@@ -9,7 +9,7 @@
 Simple blog written in Larave. There are authorization, registration, post create page, post view pages, search through posts and very simple admin panel, which will be improved in future.
 
 ## Usage
-#### If you are going to export SQL file to your schema instead of migrations:
+### If you are going to export SQL file to your schema instead of migrations:
 ```bash
 mysql -u [username] -p [database_name] < larablog.sql
 ```
@@ -23,7 +23,7 @@ psql -h [hostname] -d [database_name] -U [username] -f larablog.sql
 **User: skip@ma.su**\
 **Password: 123**
 
-#### If you use migration I recommend to add user_role column to not look around user ID's:
+### If you use migration I recommend to add user_role column to not look around user ID's:
 
 ```
             $table->id();
